@@ -1,0 +1,22 @@
+{
+  "name": "bulldemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@bull-board/api": "^6.9.6",
+    "@bull-board/express": "^6.9.6",
+    "@bull-board/ui": "^6.9.6",
+    "bull": "^4.16.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0"
+  }
+}
